@@ -48,7 +48,7 @@ public class TicTacToe {
 					playerWins("X");
 					break outerloop;
 				} else if (oTally == arr[0].length) {
-					playerWins("");
+					playerWins("O");
 					break outerloop;
 				}
 				xTally = 0;
